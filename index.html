@@ -566,7 +566,7 @@
   <!-- ░░░░░░░░░░░░░░░░░░ SALA 1   (centro en X = 0) ░░░░░░░░░░░░░░░░░░
        ✏️ En la línea de abajo puedes cambiar el nombre y los colores de la sala.
        puertaIzq: false, porque a la izquierda ya no hay más salas. -->
-  <a-entity sala="nombre: Sala 1; puertaIzq: false" position="0 0 0">
+  <a-entity sala="nombre: Gravity Falls; puertaIzq: false" position="0 0 0">
 
     <!-- Letrero con instrucciones (solo en la primera sala).
          \n dentro del texto significa "salto de línea". -->
@@ -578,15 +578,15 @@
     <a-entity boton-sala="texto: Ir a Sala 2; destino: 16 0 5" position="-0.9 1.3 3"></a-entity>
     <a-entity boton-sala="texto: Ir a Sala 3; destino: 32 0 5" position="0.9 1.3 3"></a-entity>
 
-    <!-- ✏️ Pieza 1: la principal, al fondo al centro (más grande y se oye desde más lejos) -->
+    <!-- ✏️ Pieza 1: Bill ciphen en el centro al fondo-->
     <a-entity position="0 0 -5.5"
-      pieza="nombre: Pieza 1; modelo: modelos/sala1-pieza1.glb; cancion: musica/sala1-pieza1.mp3; tamano: 1.8; movimiento: girar; alcance: 5"></a-entity>
+      pieza="nombre: Bill Cipher; modelo: modelos/bill_cipher.glb; cancion: musica/Gravity Falls - Opening Theme Song - HD.mp3; tamano: 1.8; movimiento: girar; alcance: 14"></a-entity>
     <!-- ✏️ Pieza 2: lado izquierdo -->
     <a-entity position="-5 0 -1"
-      pieza="nombre: Pieza 2; modelo: modelos/sala1-pieza2.glb; cancion: musica/sala1-pieza2.mp3; movimiento: flotar"></a-entity>
+      pieza="nombre: Pato; modelo: modelos/pato_gravity_falls.glb; tamano: 1.4; movimiento: latir"></a-entity>
     <!-- ✏️ Pieza 3: lado derecho -->
     <a-entity position="5 0 -1"
-      pieza="nombre: Pieza 3; modelo: modelos/sala1-pieza3.glb; cancion: musica/sala1-pieza3.mp3; movimiento: latir"></a-entity>
+      pieza="nombre: Diario 3; modelo: modelos/book_gravity_falls.glb; tamano: 1; movimiento: flotar"></a-entity>
   </a-entity>
 
 
